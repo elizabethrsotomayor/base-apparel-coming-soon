@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-size: calc(16rem / 16);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+  font-family: "Josefin Sans", sans-serif;
+  color: hsl(0, 36%, 70%);
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.highlight {
+  color: hsl(0, 6%, 24%);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.hero-mobile {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 23em) and (max-width: 50em) {
+  .wrapper {
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .logo-img {
+    margin: 1.6rem;
+  }
+
+  h1,
+  p,
+  form {
+    align-self: center;
+    text-align: center;
+  }
+
+  h1 {
+    width: 60%;
+    letter-spacing: 0.5rem;
+  }
+
+  p {
+    width: 90%;
+  }
+
+  .hero-mobile {
+    display: initial;
+  }
+}
