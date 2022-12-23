@@ -40,6 +40,7 @@ h1 {
 }
 
 h1 {
+  letter-spacing: 0.5rem;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -54,7 +55,7 @@ h1 {
 
 .email-field {
   border-radius: 3rem;
-  border: 1px solid;
+  border: 0.5px solid gray;
   padding: 1rem;
   position: relative;
 }
@@ -101,6 +102,14 @@ h1 {
     margin: 1.6rem;
   }
 
+  .hero-desktop {
+    display: none;
+  }
+
+  .hero-mobile {
+    width: 100%;
+  }
+
   h1,
   p,
   form {
@@ -110,7 +119,6 @@ h1 {
 
   h1 {
     width: 60%;
-    letter-spacing: 0.5rem;
   }
 
   p {
