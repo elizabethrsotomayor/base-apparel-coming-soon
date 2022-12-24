@@ -117,14 +117,18 @@ h1 {
 
   .hero-desktop {
     max-width: 50%;
+    flex-grow: 1;
   }
 
   .content {
     background-image: url(../../images/bg-pattern-desktop.svg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
   }
 
   .submit-btn {
-    left: 26rem;
+    left: 22rem;
   }
 
   .email-form {
