@@ -102,6 +102,10 @@ h1 {
     margin-bottom: 2rem;
   }
 
+  .wrapper {
+    width: 100vw;
+  }
+
   .hero-mobile {
     display: none;
   }
