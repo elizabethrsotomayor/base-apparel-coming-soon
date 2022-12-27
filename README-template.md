@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-I gained more experience with flexbox and creating a responsive design for all screen sizes. I initially wanted to use relative and absolute positioning for the overlay effect on the submit button but ended up using percentage values for the margin instead to achieve the same effect. I was going to add some JavaScript for form validation but adding the required parameter to the email input took care of it for me.
+I gained more experience with flexbox and creating a responsive design for all screen sizes. I initially wanted to use relative and absolute positioning for the overlay effect on the submit button but ended up using percentage values for the margin instead to achieve the same effect. I was going to add some JavaScript for form validation but adding the required parameter to the email input field took care of it for me.
 
 ### Continued development
 
